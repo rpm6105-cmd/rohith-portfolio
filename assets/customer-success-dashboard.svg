@@ -1,0 +1,27 @@
+<svg width="720" height="520" viewBox="0 0 720 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="520" rx="36" fill="#F7F0E5"/>
+  <rect x="28" y="28" width="664" height="464" rx="28" fill="#FFFDF9"/>
+  <rect x="56" y="56" width="214" height="116" rx="24" fill="#162127"/>
+  <text x="84" y="96" fill="#E3B68A" font-family="Arial, sans-serif" font-size="18" font-weight="700">Customer Health</text>
+  <text x="84" y="140" fill="white" font-family="Arial, sans-serif" font-size="42" font-weight="700">92%</text>
+  <text x="84" y="166" fill="#C8D2D9" font-family="Arial, sans-serif" font-size="16">Healthy managed portfolio</text>
+  <rect x="292" y="56" width="182" height="116" rx="24" fill="#EFD8BE"/>
+  <text x="320" y="96" fill="#8A5122" font-family="Arial, sans-serif" font-size="18" font-weight="700">Renewal Focus</text>
+  <text x="320" y="140" fill="#8A5122" font-family="Arial, sans-serif" font-size="42" font-weight="700">90%+</text>
+  <text x="320" y="166" fill="#8A5122" font-family="Arial, sans-serif" font-size="16">Supported through QBRs</text>
+  <rect x="496" y="56" width="168" height="116" rx="24" fill="#D8EDE7"/>
+  <text x="524" y="96" fill="#335C57" font-family="Arial, sans-serif" font-size="18" font-weight="700">CSAT</text>
+  <text x="524" y="140" fill="#335C57" font-family="Arial, sans-serif" font-size="42" font-weight="700">95%+</text>
+  <text x="524" y="166" fill="#335C57" font-family="Arial, sans-serif" font-size="16">Portfolio satisfaction</text>
+  <rect x="56" y="204" width="608" height="260" rx="28" fill="#FBF7F0" stroke="#E8DECF"/>
+  <path d="M96 394C143 345 173 356 216 298C247 257 272 257 304 292C334 324 369 340 415 270C466 193 525 214 624 144" stroke="#C47D43" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="215" cy="298" r="12" fill="#C47D43"/>
+  <circle cx="304" cy="292" r="12" fill="#162127"/>
+  <circle cx="415" cy="270" r="12" fill="#335C57"/>
+  <circle cx="624" cy="144" r="12" fill="#C47D43"/>
+  <rect x="96" y="234" width="152" height="16" rx="8" fill="#EFD8BE"/>
+  <rect x="96" y="260" width="94" height="12" rx="6" fill="#E9DED1"/>
+  <rect x="500" y="352" width="124" height="70" rx="20" fill="#162127"/>
+  <text x="525" y="383" fill="#E3B68A" font-family="Arial, sans-serif" font-size="14" font-weight="700">Expansion</text>
+  <text x="525" y="408" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="700">10-15%</text>
+</svg>
