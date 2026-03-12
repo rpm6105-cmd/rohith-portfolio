@@ -309,34 +309,38 @@ a {
 
 .dashboard-stats {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 14px;
 }
 
 .dashboard-stat {
   padding: 18px;
   border-radius: 22px;
+  min-height: 146px;
 }
 
 .dashboard-stat span,
-.dashboard-pill span {
+.retention-header p:last-child {
   display: block;
+}
+
+.dashboard-stat span {
   font-size: 0.84rem;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
-.dashboard-stat strong,
-.dashboard-pill strong {
+.dashboard-stat strong {
   display: block;
-  font-size: 2rem;
+  font-size: 1.85rem;
   line-height: 1;
   margin-bottom: 8px;
 }
 
 .dashboard-stat small {
   display: block;
-  font-size: 0.88rem;
+  font-size: 0.84rem;
+  line-height: 1.45;
 }
 
 .dashboard-stat-dark {
@@ -363,7 +367,6 @@ a {
 }
 
 .dashboard-chart {
-  position: relative;
   padding: 22px;
   border-radius: 24px;
   background: #fbf7f0;
@@ -383,7 +386,7 @@ a {
   align-items: end;
   gap: 14px;
   margin-top: 18px;
-  min-height: 170px;
+  min-height: 180px;
 }
 
 .dashboard-bars div {
@@ -417,20 +420,6 @@ a {
   font-weight: 700;
 }
 
-.dashboard-pill {
-  position: absolute;
-  right: 22px;
-  bottom: 22px;
-  padding: 16px 18px;
-  border-radius: 20px;
-  background: #162127;
-  color: white;
-}
-
-.dashboard-pill span {
-  color: #e8c391;
-}
-
 .retention-panel {
   padding: 28px;
   border-radius: 34px;
@@ -448,9 +437,15 @@ a {
 }
 
 .retention-header h3 {
+  margin: 0 0 10px;
+  font-size: 1.8rem;
+  line-height: 1.08;
+}
+
+.retention-header p:last-child {
   margin: 0;
-  font-size: 2rem;
-  line-height: 1.12;
+  color: var(--muted);
+  line-height: 1.55;
 }
 
 .retention-grid {
@@ -463,11 +458,12 @@ a {
 .retention-card {
   padding: 24px;
   border-radius: 28px;
+  min-height: 210px;
 }
 
 .retention-card strong {
   display: block;
-  font-size: 4.2rem;
+  font-size: 3.8rem;
   line-height: 1;
   margin: 10px 0 14px;
 }
@@ -497,9 +493,10 @@ a {
 .retention-card li {
   position: relative;
   padding-left: 22px;
-  margin-top: 14px;
+  margin-top: 12px;
   color: #5f564d;
   font-weight: 700;
+  line-height: 1.4;
 }
 
 .retention-card li::before {
@@ -802,8 +799,11 @@ a {
   .impact-grid,
   .about-grid,
   .tools-grid,
-  .dashboard-stats,
   .retention-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .dashboard-stats {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -853,12 +853,6 @@ a {
 
   .dashboard-bars {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .dashboard-pill {
-    position: static;
-    margin-top: 18px;
-    width: fit-content;
   }
 
   .workflow-steps {
