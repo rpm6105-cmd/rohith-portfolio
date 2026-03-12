@@ -2,33 +2,39 @@
   <rect width="720" height="520" rx="36" fill="#F7F0E5"/>
   <rect x="28" y="28" width="664" height="464" rx="30" fill="#FFFDF9"/>
 
-  <rect x="60" y="58" width="184" height="118" rx="24" fill="#162127"/>
-  <text x="88" y="95" fill="#E8C391" font-family="Arial, sans-serif" font-size="18" font-weight="700">Customer Health</text>
-  <text x="88" y="146" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="44" font-weight="700">92%</text>
-  <text x="88" y="174" fill="#CAD3DA" font-family="Arial, sans-serif" font-size="15">Healthy managed portfolio</text>
+  <rect x="56" y="56" width="192" height="120" rx="24" fill="#162127"/>
+  <text x="86" y="94" fill="#E8C391" font-family="Arial, sans-serif" font-size="17" font-weight="700">Customer Health</text>
+  <text x="86" y="146" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="42" font-weight="700">92%</text>
+  <text x="86" y="174" fill="#CBD3D9" font-family="Arial, sans-serif" font-size="14">Healthy portfolio</text>
 
-  <rect x="268" y="58" width="184" height="118" rx="24" fill="#EFD8BE"/>
-  <text x="296" y="95" fill="#95591F" font-family="Arial, sans-serif" font-size="18" font-weight="700">Renewal Focus</text>
-  <text x="296" y="146" fill="#95591F" font-family="Arial, sans-serif" font-size="44" font-weight="700">90%+</text>
-  <text x="296" y="174" fill="#95591F" font-family="Arial, sans-serif" font-size="15">Supported through QBRs</text>
+  <rect x="264" y="56" width="192" height="120" rx="24" fill="#EFD8BE"/>
+  <text x="294" y="94" fill="#95591F" font-family="Arial, sans-serif" font-size="17" font-weight="700">Renewal Focus</text>
+  <text x="294" y="146" fill="#95591F" font-family="Arial, sans-serif" font-size="42" font-weight="700">90%+</text>
+  <text x="294" y="174" fill="#95591F" font-family="Arial, sans-serif" font-size="14">Value-led QBRs</text>
 
-  <rect x="476" y="58" width="184" height="118" rx="24" fill="#CFE3DE"/>
-  <text x="504" y="95" fill="#335C57" font-family="Arial, sans-serif" font-size="18" font-weight="700">CSAT</text>
-  <text x="504" y="146" fill="#335C57" font-family="Arial, sans-serif" font-size="44" font-weight="700">95%+</text>
-  <text x="504" y="174" fill="#335C57" font-family="Arial, sans-serif" font-size="15">Portfolio satisfaction</text>
+  <rect x="472" y="56" width="192" height="120" rx="24" fill="#CFE3DE"/>
+  <text x="502" y="94" fill="#335C57" font-family="Arial, sans-serif" font-size="17" font-weight="700">CSAT</text>
+  <text x="502" y="146" fill="#335C57" font-family="Arial, sans-serif" font-size="42" font-weight="700">95%+</text>
+  <text x="502" y="174" fill="#335C57" font-family="Arial, sans-serif" font-size="14">Portfolio satisfaction</text>
 
-  <rect x="60" y="208" width="600" height="228" rx="28" fill="#FBF7F0" stroke="#E8DECF"/>
-  <text x="90" y="247" fill="#162127" font-family="Arial, sans-serif" font-size="18" font-weight="700">Growth Trend</text>
-  <rect x="90" y="268" width="168" height="14" rx="7" fill="#E7D0B1"/>
-  <rect x="90" y="292" width="112" height="10" rx="5" fill="#DDD2C3"/>
+  <rect x="56" y="206" width="608" height="230" rx="28" fill="#FBF7F0" stroke="#E8DECF"/>
+  <text x="90" y="244" fill="#162127" font-family="Arial, sans-serif" font-size="18" font-weight="700">Customer Growth Snapshot</text>
+  <text x="90" y="272" fill="#6A747A" font-family="Arial, sans-serif" font-size="14">Illustrative view of adoption, retention, and expansion momentum</text>
 
-  <path d="M118 372C170 328 198 331 245 282C284 242 326 244 360 286C395 328 438 337 486 266C522 214 563 206 602 178" stroke="#C47D43" stroke-width="12" stroke-linecap="round"/>
-  <circle cx="245" cy="282" r="14" fill="#C47D43"/>
-  <circle cx="360" cy="286" r="14" fill="#162127"/>
-  <circle cx="486" cy="266" r="14" fill="#335C57"/>
-  <circle cx="602" cy="178" r="14" fill="#C47D43"/>
+  <line x1="116" y1="388" x2="116" y2="310" stroke="#DDD2C3" stroke-width="10" stroke-linecap="round"/>
+  <line x1="196" y1="388" x2="196" y2="338" stroke="#E6D0AE" stroke-width="10" stroke-linecap="round"/>
+  <line x1="276" y1="388" x2="276" y2="280" stroke="#C47D43" stroke-width="10" stroke-linecap="round"/>
+  <line x1="356" y1="388" x2="356" y2="250" stroke="#335C57" stroke-width="10" stroke-linecap="round"/>
+  <line x1="436" y1="388" x2="436" y2="224" stroke="#C47D43" stroke-width="10" stroke-linecap="round"/>
 
-  <rect x="490" y="340" width="132" height="72" rx="22" fill="#162127"/>
-  <text x="516" y="370" fill="#E8C391" font-family="Arial, sans-serif" font-size="14" font-weight="700">Expansion</text>
-  <text x="516" y="398" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="22" font-weight="700">10-15%</text>
+  <text x="96" y="412" fill="#7A6E5C" font-family="Arial, sans-serif" font-size="13">Risk</text>
+  <text x="164" y="412" fill="#7A6E5C" font-family="Arial, sans-serif" font-size="13">Adoption</text>
+  <text x="254" y="412" fill="#7A6E5C" font-family="Arial, sans-serif" font-size="13">QBRs</text>
+  <text x="332" y="412" fill="#7A6E5C" font-family="Arial, sans-serif" font-size="13">Renewals</text>
+  <text x="408" y="412" fill="#7A6E5C" font-family="Arial, sans-serif" font-size="13">Expansion</text>
+
+  <rect x="520" y="276" width="110" height="120" rx="22" fill="#162127"/>
+  <text x="544" y="316" fill="#E8C391" font-family="Arial, sans-serif" font-size="14" font-weight="700">Pipeline</text>
+  <text x="544" y="354" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="28" font-weight="700">10-15%</text>
+  <text x="544" y="380" fill="#CBD3D9" font-family="Arial, sans-serif" font-size="13">CS-led</text>
 </svg>
