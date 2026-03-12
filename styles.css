@@ -66,7 +66,7 @@ a {
 .brand {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 16px;
 }
 
 .brand h1,
@@ -81,7 +81,7 @@ a {
 }
 
 .brand h1 {
-  font-size: 1.05rem;
+  font-size: 1.25rem;
 }
 
 .brand-mark {
@@ -753,7 +753,43 @@ a {
   gap: 24px;
   padding: 32px;
   border-radius: 34px;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.74), rgba(239, 216, 190, 0.62));
+  background:
+    radial-gradient(circle at top right, rgba(196, 125, 67, 0.16), transparent 24%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.82), rgba(239, 216, 190, 0.7));
+}
+
+.contact-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-copy h2 {
+  max-width: 13ch;
+}
+
+.contact-highlight {
+  margin-top: 22px;
+  padding: 18px 20px;
+  border-radius: 22px;
+  background: rgba(22, 33, 39, 0.94);
+  color: white;
+}
+
+.contact-highlight-label {
+  display: block;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.74rem;
+  color: #e8c391;
+  font-weight: 700;
+}
+
+.contact-highlight strong {
+  display: block;
+  line-height: 1.5;
+  font-size: 1rem;
 }
 
 .contact-links {
@@ -773,9 +809,31 @@ a {
 .contact-links a {
   padding: 16px 18px;
   border-radius: 18px;
-  background: rgba(255, 255, 255, 0.72);
-  font-weight: 700;
-  border: 1px solid rgba(255, 255, 255, 0.78);
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(255, 255, 255, 0.82);
+  transition: transform 180ms ease, background 180ms ease, border-color 180ms ease;
+}
+
+.contact-links a:hover {
+  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.92);
+  border-color: rgba(196, 125, 67, 0.28);
+}
+
+.contact-links span {
+  display: block;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+  color: #8a5122;
+  font-weight: 800;
+}
+
+.contact-links strong {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.45;
 }
 
 .reveal {
