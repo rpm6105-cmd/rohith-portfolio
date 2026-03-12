@@ -25,6 +25,23 @@ http://localhost:8000
 
 ## Deploy options
 
+### GitHub Pages
+
+This repo is configured for GitHub Pages with a workflow in `.github/workflows/deploy-pages.yml`.
+
+Expected URL:
+
+```text
+https://rpm6105-cmd.github.io/rohith-portfolio/
+```
+
+To enable it:
+
+1. Open the repository settings on GitHub.
+2. Go to `Pages`.
+3. Under `Build and deployment`, choose `GitHub Actions` as the source.
+4. Push to `main` and GitHub will deploy automatically.
+
 ### Netlify
 
 1. Drag the `portfolio` folder into Netlify Drop, or connect the folder to a repo.
