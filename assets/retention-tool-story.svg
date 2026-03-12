@@ -1,35 +1,39 @@
 <svg width="720" height="820" viewBox="0 0 720 820" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect width="720" height="820" rx="44" fill="#17242B"/>
-  <circle cx="116" cy="120" r="76" fill="#C47D43" fill-opacity="0.18"/>
-  <circle cx="610" cy="164" r="92" fill="#D8EDE7" fill-opacity="0.15"/>
-  <rect x="56" y="58" width="608" height="704" rx="34" fill="#223039"/>
-  <rect x="92" y="96" width="536" height="112" rx="28" fill="#FFF9F1"/>
-  <text x="126" y="136" fill="#8A5122" font-family="Arial, sans-serif" font-size="18" font-weight="700">CX Retention Tool</text>
-  <text x="126" y="168" fill="#162127" font-family="Arial, sans-serif" font-size="32" font-weight="700">Churn risk</text>
-  <text x="126" y="206" fill="#162127" font-family="Arial, sans-serif" font-size="32" font-weight="700">surfaced early</text>
-  <rect x="92" y="242" width="256" height="188" rx="28" fill="#D8EDE7"/>
-  <text x="124" y="284" fill="#335C57" font-family="Arial, sans-serif" font-size="18" font-weight="700">Health Score</text>
-  <text x="124" y="354" fill="#335C57" font-family="Arial, sans-serif" font-size="72" font-weight="700">74</text>
-  <text x="124" y="392" fill="#335C57" font-family="Arial, sans-serif" font-size="17">Risk detected from</text>
-  <text x="124" y="416" fill="#335C57" font-family="Arial, sans-serif" font-size="17">engagement drop</text>
-  <rect x="372" y="242" width="256" height="188" rx="28" fill="#FFF9F1"/>
-  <text x="404" y="284" fill="#8A5122" font-family="Arial, sans-serif" font-size="18" font-weight="700">Action Trigger</text>
-  <rect x="404" y="314" width="188" height="16" rx="8" fill="#EFD8BE"/>
-  <text x="404" y="346" fill="#8A5122" font-family="Arial, sans-serif" font-size="16" font-weight="700">Low engagement</text>
-  <rect x="404" y="366" width="160" height="16" rx="8" fill="#E8DECF"/>
-  <text x="404" y="398" fill="#6A6257" font-family="Arial, sans-serif" font-size="16" font-weight="700">Renewal risk rising</text>
-  <rect x="404" y="418" width="208" height="16" rx="8" fill="#D7E3DC"/>
-  <text x="404" y="450" fill="#335C57" font-family="Arial, sans-serif" font-size="16" font-weight="700">Escalate outreach plan</text>
-  <rect x="92" y="464" width="536" height="236" rx="28" fill="#FFFDF9"/>
-  <text x="124" y="506" fill="#162127" font-family="Arial, sans-serif" font-size="18" font-weight="700">Retention Workflow</text>
-  <rect x="124" y="546" width="132" height="78" rx="20" fill="#162127"/>
-  <text x="164" y="589" fill="#E3B68A" font-family="Arial, sans-serif" font-size="18" font-weight="700">Alert</text>
-  <rect x="294" y="546" width="132" height="78" rx="20" fill="#C47D43"/>
-  <text x="345" y="589" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="700">Review</text>
-  <rect x="464" y="546" width="132" height="78" rx="20" fill="#335C57"/>
-  <text x="498" y="589" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="700">Outreach</text>
-  <path d="M256 585H294" stroke="#C47D43" stroke-width="10" stroke-linecap="round"/>
-  <path d="M426 585H464" stroke="#C47D43" stroke-width="10" stroke-linecap="round"/>
-  <text x="124" y="670" fill="#5F6B72" font-family="Arial, sans-serif" font-size="18">Designed to support consistent, proactive</text>
-  <text x="124" y="696" fill="#5F6B72" font-family="Arial, sans-serif" font-size="18">customer retention action.</text>
+  <circle cx="90" cy="110" r="72" fill="#C47D43" fill-opacity="0.12"/>
+  <circle cx="620" cy="140" r="96" fill="#D8EDE7" fill-opacity="0.1"/>
+  <rect x="54" y="54" width="612" height="712" rx="36" fill="#1F313C"/>
+
+  <rect x="90" y="94" width="540" height="126" rx="30" fill="#FFF9F1"/>
+  <text x="126" y="142" fill="#95591F" font-family="Arial, sans-serif" font-size="18" font-weight="700">CX Retention Tool</text>
+  <text x="126" y="188" fill="#162127" font-family="Arial, sans-serif" font-size="36" font-weight="700">Churn risk surfaced early</text>
+
+  <rect x="90" y="258" width="236" height="194" rx="28" fill="#CFE3DE"/>
+  <text x="126" y="304" fill="#335C57" font-family="Arial, sans-serif" font-size="19" font-weight="700">Health Score</text>
+  <text x="126" y="386" fill="#335C57" font-family="Arial, sans-serif" font-size="76" font-weight="700">74</text>
+  <text x="126" y="426" fill="#335C57" font-family="Arial, sans-serif" font-size="18">Risk detected from</text>
+  <text x="126" y="452" fill="#335C57" font-family="Arial, sans-serif" font-size="18">engagement drop</text>
+
+  <rect x="394" y="258" width="236" height="194" rx="28" fill="#FFF9F1"/>
+  <text x="430" y="304" fill="#95591F" font-family="Arial, sans-serif" font-size="19" font-weight="700">Action Trigger</text>
+  <rect x="430" y="332" width="164" height="14" rx="7" fill="#E7D0B1"/>
+  <text x="430" y="374" fill="#95591F" font-family="Arial, sans-serif" font-size="18" font-weight="700">Low engagement</text>
+  <rect x="430" y="396" width="136" height="14" rx="7" fill="#DDD2C3"/>
+  <text x="430" y="438" fill="#6C645A" font-family="Arial, sans-serif" font-size="18" font-weight="700">Renewal risk rising</text>
+
+  <rect x="90" y="488" width="540" height="236" rx="30" fill="#FFFDF9"/>
+  <text x="126" y="536" fill="#162127" font-family="Arial, sans-serif" font-size="19" font-weight="700">Retention Workflow</text>
+
+  <rect x="126" y="592" width="126" height="74" rx="22" fill="#162127"/>
+  <text x="164" y="637" fill="#E8C391" font-family="Arial, sans-serif" font-size="18" font-weight="700">Alert</text>
+  <rect x="296" y="592" width="126" height="74" rx="22" fill="#C47D43"/>
+  <text x="333" y="637" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="18" font-weight="700">Review</text>
+  <rect x="466" y="592" width="126" height="74" rx="22" fill="#3C6C66"/>
+  <text x="497" y="637" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="18" font-weight="700">Outreach</text>
+
+  <path d="M252 629H296" stroke="#C47D43" stroke-width="10" stroke-linecap="round"/>
+  <path d="M422 629H466" stroke="#C47D43" stroke-width="10" stroke-linecap="round"/>
+
+  <text x="126" y="700" fill="#5F6B72" font-family="Arial, sans-serif" font-size="18">Designed to support consistent, proactive</text>
+  <text x="126" y="726" fill="#5F6B72" font-family="Arial, sans-serif" font-size="18">customer retention action.</text>
 </svg>
